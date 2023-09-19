@@ -6,7 +6,7 @@
 print ("Do or do not. There is no try. --Yoda")
 
 # Output my favourite food
-print ("apples --Amelia")
+print ("I like to eat apples --Amelia")
 
 # Ask the user a question
 input("What was your favourite quote?")
