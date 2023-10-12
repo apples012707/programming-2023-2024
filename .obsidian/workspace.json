@@ -11,8 +11,12 @@
             "id": "ae56cec045f2f0e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1 - Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Lists",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Natural Language Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1 - Natural Language Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1 - Natural Language Processing.md"
+              }
             }
           }
         ]
@@ -140,9 +149,13 @@
   },
   "active": "ae56cec045f2f0e3",
   "lastOpenFiles": [
+    "Notes/Markdown (Re) Introduction.md",
+    "1 - Natural Language Processing.md",
+    "chatbot.py",
+    "Strings.md",
+    "README.md",
     "quotegenerator.py",
     "quotegenerator.py ",
-    "quotegenerator.py U",
-    "1 - Natural Language Processing.md"
+    "quotegenerator.py U"
   ]
 }

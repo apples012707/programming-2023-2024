@@ -11,8 +11,12 @@
             "id": "c3806cf913eb99ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Markdown (Re) Introduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -37,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,7 +174,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3806cf913eb99ef",
+  "active": "a398a21a60087302",
   "lastOpenFiles": [
     "Markdown (Re) Introduction.md",
     "Untitled.md",
