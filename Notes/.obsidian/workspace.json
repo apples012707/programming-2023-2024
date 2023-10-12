@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown (Re) Introduction.md",
+                "file": "Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,24 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown (Re) Introduction.md",
+                "file": "1 - Natural Language Processing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a398a21a60087302",
+            "id": "5a5b079cb515888b",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.4.10"
+                "currentVersion": "1.4.14"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chatbot.py",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Natural Language Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1 - Natural Language Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1 - Natural Language Processing.md"
+              }
             }
           },
           {
@@ -174,9 +179,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a398a21a60087302",
+  "active": "6035b3d64fe2a8fe",
   "lastOpenFiles": [
+    "loop_practice.py",
+    "test",
+    "food_suggestion_bot.py",
+    "2023-10-05.md",
+    "Untitled.canvas",
     "Markdown (Re) Introduction.md",
+    "Strings.md",
+    "Conditionals.md",
+    "Boolean.md",
+    "1 - Natural Language Processing.md",
     "Untitled.md",
     "().md",
     "apples-101-about-1440x810.jpg.md"
