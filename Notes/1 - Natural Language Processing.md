@@ -105,3 +105,23 @@ time.sleep(1)
 
 
 
+# Iterating *n* Number of Times
+
+Recall that when we iterate over lists, the item tells us the current element we are on.
+
+When we iterate using rang( ) , the item tells us how many times we've looped since the beginning.
+
+For example, we can leverage this in the way below:
+
+```python
+for i in range (5):
+	print(i)
+```
+
+
+
+# Range (<number>)
+
+range( ) is a faction that gives you a sequence of numbers starting at 0 by default. By default it also goes up by 1. It stops right before the number that we provide as input.
+
+We can modify range( ) to start, stop, and count up/down with different numbers
