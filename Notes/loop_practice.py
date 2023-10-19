@@ -27,12 +27,6 @@ for item in groceries:
 # * Instead of reaching zero it says "Happy New Year"
 # * Example output
 
-countdown = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "HAPPY NEW YEAR!🥳"]
-import time
-for items in countdown:
-    print(f"{items}")
-    print("---")
-    time.sleep(1)
 stars = ["*", "**", "***", "****", "*****"]
 
 for items in stars:
@@ -54,5 +48,9 @@ for items in countdown:
     print(f"{items}")
     print("---")
     time.sleep(1)
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
 
 # Finished solution

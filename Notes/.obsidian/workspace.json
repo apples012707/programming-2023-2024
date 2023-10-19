@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "b7b8854ad4676c49",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "5a5b079cb515888b",
             "type": "leaf",
             "state": {
@@ -181,6 +191,7 @@
   },
   "active": "6035b3d64fe2a8fe",
   "lastOpenFiles": [
+    "star_wars_bot.py",
     "for_loop_practice",
     "L",
     "loop_practice.py",
