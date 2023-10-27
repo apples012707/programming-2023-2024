@@ -1,4 +1,4 @@
-
+y typ
 Properties
 
 #notes #programming 
