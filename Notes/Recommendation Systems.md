@@ -18,4 +18,10 @@ All the time
 
 
 
-#
+# Similar Score
+
+Amazon, Meta, TicToc
+
+
+Similarity scores indicate how similar two people are to each other.
+Ben and Ubial have a similarity score of 2 (they like two things that are the same.) Ubial and Fido have a similarity score of 0. Ben and Fide have similarity score of 1.
