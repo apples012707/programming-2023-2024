@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recommendation Systems.md"
+                "file": "Strings.md"
               }
             }
           },
@@ -202,12 +202,17 @@
   },
   "active": "b210b9e5b316c09d",
   "lastOpenFiles": [
-    "similarity_score.py",
-    "Notes/Types.md",
+    "sim_score_sfu_best.py",
     "Recommendation Systems.md",
-    "Markdown (Re) Introduction.md",
+    "Strings.md",
+    "Untitled.canvas",
+    "Notes/Types.md",
     "1 - Natural Language Processing.md",
     "2023-10-05.md",
+    "Boolean.md",
+    "Conditionals.md",
+    "Markdown (Re) Introduction.md",
+    "similarity_score.py",
     "Notes",
     "sdf",
     "quiz1_practice.md U",
@@ -217,10 +222,6 @@
     "loop_practice.py",
     "test",
     "food_suggestion_bot.py",
-    "Untitled.canvas",
-    "Strings.md",
-    "Conditionals.md",
-    "Boolean.md",
     "().md",
     "apples-101-about-1440x810.jpg.md"
   ]
