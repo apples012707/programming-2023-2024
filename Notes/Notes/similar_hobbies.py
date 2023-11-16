@@ -1,6 +1,6 @@
 # Hobbies similarity score
-# Author: Ruby
-# Date: 14th Nov 2023
+# Author: Amelia
+# Date: 16th Nov 2023
 
 print("User 1, please enter hobbies separated by spaces:")
 user1_hobbies = input().lower().split()
