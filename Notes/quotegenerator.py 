@@ -1,6 +1,0 @@
-# Quote Generator
-# Author: Ubial
-# Date: 19 September 2023
-
-# Output a quote from someone famous
-print("Do or do not. There is no try. --Yoda")
