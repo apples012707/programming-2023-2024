@@ -24,21 +24,49 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
 # Problem 1:
 # Open the file and print the contents of the second line in the file.
+with open("./data_example.csv") as f:
+    f.readline()
 
+    # The second line of the csv file
+    print(f.readline())
 
 # Problem 2:
 # Good! Now that you've done that, open the file, and print out every line of data.
-
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        print(line)
 
 # Problem 3:
 # If you've made it this far, well done. Next task:
 # Convert that line of data into a list.
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        print(line.strip().split(","))
 
 
 # Problem 4:
 # Give yourself a pat on the back.
 # See if you can count how many people like "Chicken Adobo" as their
 # favourite food.
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+
+        print(current_line[1])
+
+
+# Sim score algorithm
+current_sim_line = 0
+
+for line in f:
+    if line in current_line:
+        current_sim_line += 1
+
+    if current_sim_line = "Chicken Adobi":
+        
+# Print the results from this line of data
+print(f"{current_sim_line}")
+
 
 
 # Problem 5:
