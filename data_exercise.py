@@ -54,20 +54,19 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
         print(current_line[1])
 
-
 # Sim score algorithm
+
 current_sim_line = 0
+chicken_adobi = 0
 
-for line in f:
-    if line in current_line:
-        current_sim_line += 1
+with open("./data_example.csv", encoding="utf-8") as f:
 
-    if current_sim_line = "Chicken Adobi":
-        
+    for line in f:
+        if str(chicken_adobi) in line:
+            current_sim_line += 1
+
 # Print the results from this line of data
 print(f"{current_sim_line}")
-
-
 
 # Problem 5:
 # You should have gotten four people for the last problem. If not,
