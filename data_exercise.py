@@ -55,18 +55,18 @@ with open("./data_example.csv", encoding="utf-8") as f:
         print(current_line[1])
 
 # Sim score algorithm
-
-current_sim_line = 0
-chicken_adobi = 0
+chicken_adobo_counter = 0
 
 with open("./data_example.csv", encoding="utf-8") as f:
-
     for line in f:
-        if str(chicken_adobi) in line:
-            current_sim_line += 1
+        current_line = line.strip().split(",")
+
+        # if current_line[1] is "Chicken Adobo"
+        if "Chicken Adobo" == current_line[1]:
+            chicken_adobo_counter += 1
 
 # Print the results from this line of data
-print(f"{current_sim_line}")
+print(f"{chicken_adobo_counter}")
 
 # Problem 5:
 # You should have gotten four people for the last problem. If not,
