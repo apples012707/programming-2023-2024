@@ -74,6 +74,23 @@ print(f"{chicken_adobo_counter}")
 # Else, you can move on to this part, which is, find out how many
 # people have the first letter of their first name start with "A".
 
+name_a_counter = 0
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+
+        # if current_line[1] is "Chicken Adobo"
+        if "Chicken Adobo" == current_line[0]:
+            name_a_counter += 1
+
+# Print the results from this line of data
+print(f"{name_a_counter}")
+
+
+
+
+
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
 
