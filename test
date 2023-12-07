@@ -1,0 +1,25 @@
+
+elves = []       # empty list
+# Open the file
+with open("./aoc2022day1.txt") as f:
+    # Calories of the current elf
+    current_cals = 0       # Assuming elf does not carry anything
+    for line in f:          # interating over every line in the file
+        # If there is something in the line (other than a number)
+        if line.strip():
+            current_cals += int(line.strip())     # string -> integer
+        else:
+            # dump current_cals into elves list
+            elves.append(current_cals)
+            # reset current_cals for next elves
+            current_cals = 0
+print (elves)
+# Set variables for each top elves
+elf_one = 0
+elf_two = 0
+elf_three = 0
+# find the biggest calories in the list
+biggest_cals = 0
+for elf in elves:
+    if elf > biggest_cals:
+        biggest_cals = elf
