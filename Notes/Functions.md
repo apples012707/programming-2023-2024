@@ -24,7 +24,7 @@ area_of_a_square(12.2). # 12.2 is the argument
 
 
 
-# Functions with 
+# Functions with Return Values
 
 
 ```python
@@ -41,10 +41,10 @@ print(adder(10, 2)) # this will print the value
 The return keyword does two things in a function:
 
 1. Stops the function.
-2. If there's a calue after the return keyword, it sends the aclue back to where the function is called.
+2. If there's a value after the return keyword, it sends the value back to where the function is called.
 
 ```python
-def linear_seach(l: list, item: Any) -> int:
+def linear_seach(l: list, item: any) -> int:
 	"""Search through a list and if found, returns the index of the first occuence of the item.
 
 	Params:
@@ -61,4 +61,31 @@ def linear_seach(l: list, item: Any) -> int:
 		counter += 1
 
 	return -1
+```
+
+
+# Recursion
+
+Recursion is an elegant way to repeat a pattern.
+
+Fractals are examples of patterns that can be described recursively.
+
+A recursive function must have. three parts:
+
+1. A *function*
+2. Somewhere in the body code-block, the function should call itself.
+3. A base case.
+
+
+## Factorials and Recursion
+
+```python
+0! = 1
+1! = 1
+
+2! = 1 * 2
+2! = 1! * 2
+
+3! = 1 * 2 * 3
+3! =   2!  * 3
 ```
