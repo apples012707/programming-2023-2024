@@ -6,7 +6,7 @@ from PIL import Image
 
 import colour_helper
 
-# Test?
+# variable for colours
 light_pixel = (255, 255, 255)
 light_gray = (128, 128, 128)
 darker_gray = (100, 128, 128)
