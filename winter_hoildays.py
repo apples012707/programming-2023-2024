@@ -41,7 +41,7 @@ good_events = [
 bad_events = [
     "I didn't go skating this winter break",
     "I didn't do secret santa this year...",
-    "There was no snow this year :()"
+    "There was no snow this year💩"
     ]
 
 
