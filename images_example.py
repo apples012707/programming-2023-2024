@@ -1,5 +1,5 @@
 # Images and Python
-# Author: Amelia
+# Author: Ubial
 # 11 December 2023
 
 from PIL import Image
@@ -47,4 +47,3 @@ with Image.open("./Images/kid-green.jpg") as im:
     bg_im.close()
 
     im.save("./Images/output.jpg")
-
