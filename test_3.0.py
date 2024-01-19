@@ -7,7 +7,7 @@ import math
 from PIL import Image
 import red_ball_colour_helper
 
-red_ball_img = Image.open("./Images/red_ball_map.jpg")
+red_ball_img = Image.open("./Images/Red_ball.jpeg")
 img_mtx = red_ball_img.load()
 
 RED_PIXEL = (160, 0, 0)
@@ -33,10 +33,10 @@ for pixel_loc in red_pixels:
 
 # Save the image
 red_ball_map.save("./Images/red_ball_map.jpg")
-red_ball_map.close()
+# red_ball_map.close()
 
 def find_center():
-    img = Image.open("./Images/Red Ball.jpeg")
+    img = Image.open("./Images/red_ball_map.jpg")
     img_mtx = img.load()
 
     min_y = max_y = 0
@@ -49,7 +49,7 @@ def find_center():
             green_pixel = current_pixel[1]
             blue_pixel = current_pixel[2]
 
-            if red_pixel != 255 or green_pixel != 255 or blue_pixel != 255:
+            if red_pixel > 190 or green_pixel < 40 or blue_pixel < 55:
                 min_y = x_axis if row_0 else min(min_y, x_axis)
                 max_y = max_y if row_0 else max(max_y, x_axis)
                 row_0 = False
@@ -65,35 +65,32 @@ def find_center():
         green_pixel = current_pixel[1]
         blue_pixel = current_pixel[2]
 
-        if red_pixel != 255 or green_pixel != 255 or blue_pixel != 255:
+        if red_pixel > 190 or green_pixel < 50 or blue_pixel < 50:
             min_x = y_axis if column_0 else min(min_x, y_axis)
             max_x = max_x if column_0 else max(max_x, y_axis)
             column_0 = False
 
     middle_y_axis = (min_x + max_x) / 2
 
-    return middle_y_axis, middle_x_axis
+    return int(middle_y_axis), int(middle_x_axis)
 
-center_coordinates = find_center()
+# center_coordinates = find_center()
 
-print(find_center())
+# print(center_coordinates)
 
 
-red_ball_map.putpixel(center_coordinates, (255, 255, 255))
+# red_ball_map.putpixel(center_coordinates, (255, 255, 255))
 
-red_ball_map_with_dot = Image.new("RGB", (red_ball_img.width, red_ball_img.height))
-
-red_ball_img.width = red_ball_map_with_dot.width
-red_ball_img.height = red_ball_map_with_dot.height
+# red_ball_map_with_dot = Image.new("RGB", (red_ball_img.width, red_ball_img.height))
 
 
 
-for pixel_loc in red_pixels:
-    red_ball_map.putpixel(pixel_loc, RED_PIXEL)
 
-# Save the modified image
-red_ball_map.save("./Images/red_ball_map_with_dot.jpg")
-red_ball_map.close()
+# for pixel_loc in red_pixels:
+#     red_ball_map.putpixel(pixel_loc, RED_PIXEL)
+
+# # Save the modified image
+# red_ball_map.save("./Images/red_ball_map_with_dot.jpg")
+# red_ball_map.close()
 
 
-red_ball_map.close("./Images/red_ball_map_with_dot.jpg")

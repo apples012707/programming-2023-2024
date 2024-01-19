@@ -14,7 +14,7 @@ def pixel_to_name(pixel: tuple) -> str:
     """
     red, green, blue = pixel
 
-    if red > 150 and green < 101 and blue < 100:
+    if red > 195 and green < 90 and blue < 90:
         return "red"
     else:
         return "colour unknown"
