@@ -1,4 +1,6 @@
-# Colour Helper
+# Red Ball Colour Helper
+# Author; Amelia + Ruby
+# Date: Jan 22 2024
 # Functions that help wither colours
 
 
