@@ -1,0 +1,23 @@
+def linear_search(arr, target):
+    """
+    Perform linear search on a list to find the position of the target value.
+    Parameters:
+    - arr: The list to search.
+    - target: The value to search for.
+    Returns:
+    - If found, returns the position (index) of the target value.
+    - If not found, returns -1.
+    """
+    for i in range(len(arr)):
+        if arr[i] == target:
+            # Target value found at index i
+            return i
+    # Target value not found in the list
+    return -1
+my_list = [10, 5, 7, 2, 8, 3]
+target_value = 7
+result = linear_search(my_list, target_value)
+if result != -1:
+    print(f'Target value {target_value} found at index {result}.')
+else:
+    print(f'Target value {target_value} not found in the list.')
